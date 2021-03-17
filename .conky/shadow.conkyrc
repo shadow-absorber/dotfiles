@@ -87,7 +87,7 @@ conky.config = {
 	default_graph_width = 0,					-- default is 0 - full width
 	default_shade_color = '#000000',			-- default shading colour
 	default_outline_color = '#000000',			-- default outline colour
-	draw_borders = false,						-- draw borders around text
+	draw_borders = true,						-- draw borders around text
 	draw_graph_borders = true,					-- draw borders around graphs
 	draw_shades = false,						-- draw shades
 	draw_outline = false,						-- draw outline
@@ -123,10 +123,10 @@ conky.config = {
 
 	--Colours
 
-	default_color = '#e5f8c0',  				-- default color and border color #D9DDE2
-	color = '#e5f8c0',  
-	color1 = '#40736c',							-- old color1 #597AA1
-	color2 = '#92af64',							-- old color2 #00BFFF
+	default_color = '#ff8c8c',  				-- default color and border color #D9DDE2 old green colour: #e5f8c0
+	color = '#ff8c8c',  
+	color1 = '#e44343',							-- old color1 #597AA1 old green colour: #40736c
+	color2 = '#801414',							-- old color2 #00BFFF old green colour: #92af64
 
     --Lua
 
