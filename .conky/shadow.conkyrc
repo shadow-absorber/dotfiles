@@ -134,9 +134,9 @@ conky.config = {
 };
 
 conky.text = [[
-${color}${voffset 4}${font GE Inspira:size=36}${alignc}${time %T}${font}${color}
+${color}${voffset 4}${font GE Inspira:size=18}${alignc}${time %T}${font}${color}
 ${color}${voffset 4}${font GE Inspira:size=12}${alignc}${time %A} ${time %F}, Week ${time %V}${font}${color}
-
+#systeminfo
 ${color2}${font Roboto:size=10}${voffset 2}S Y S T E M   ${hr 2}${font}${color}
 ${color1}${voffset 8}Hostname:${color} ${alignr}${nodename}
 ${color1}Distro:${color}${alignr}${execi 6000 lsb_release -a | grep 'Description'|awk {'print $2" "$3" "$4" "$5'}}
@@ -144,57 +144,64 @@ ${color1}Kernel:${color}${alignr}${exec uname} ${exec uname -r}
 ${color1}Desktop:${color}${alignr}$XDG_CURRENT_DESKTOP
 ${color1}Uptime:${color} ${alignr}${uptime}
 ${color1}Battery:${color} ${alignr}${battery_percent BAT0}% ${alignr}${battery_bar BAT0}
-
+#processors info
 ${color2}${font Roboto:size=10}P R O C E S S O R S  ${hr 2}${font}${color}
 ${color1}CPU Freq:${color} $alignr${freq}MHz
 ${color1}CPU Temp:${color} $alignr${execi 10 sensors | grep 'Core 0' | awk {'print $3'}}
 ${color1}History:${color} ${alignr}${cpugraph 8,100}
-${color1}${offset 30}CPU Total:${color} ${alignr}${offset -10}${cpu cpu0}%${alignr}${cpubar cpu0}
-#${color1}${offset 30}CPU Core 1:${color} ${alignr}${offset -10}${cpu cpu1}%${alignr}${cpubar cpu1}
-#${color1}${offset 30}CPU Core 2:${color} ${alignr}${offset -10}${cpu cpu2}%${alignr}${cpubar cpu2}
-#${color1}${offset 30}CPU Core 3:${color} ${alignr}${offset -10}${cpu cpu3}%${alignr}${cpubar cpu3}
-#${color1}${offset 30}CPU Core 4:${color} ${alignr}${offset -10}${cpu cpu4}%${alignr}${cpubar cpu4}
-#${color1}${offset 30}CPU Core 5:${color} ${alignr}${offset -10}${cpu cpu5}%${alignr}${cpubar cpu5}
-#${color1}${offset 30}CPU Core 6:${color} ${alignr}${offset -10}${cpu cpu6}%${alignr}${cpubar cpu6}
-#${color1}${offset 30}CPU Core 7:${color} ${alignr}${offset -10}${cpu cpu7}%${alignr}${cpubar cpu7}
-#${color1}${offset 30}CPU Core 8:${color} ${alignr}${offset -10}${cpu cpu8}%${alignr}${cpubar cpu8}
-
+${color1}${offset 15}CPU Total:${color} ${alignr}${offset -10}${cpu cpu0}%${alignr}${cpubar cpu0}
+#${color1}${offset 15}CPU Core 1:${color} ${alignr}${offset -10}${cpu cpu1}%${alignr}${cpubar cpu1}
+#${color1}${offset 15}CPU Core 2:${color} ${alignr}${offset -10}${cpu cpu2}%${alignr}${cpubar cpu2}
+#${color1}${offset 15}CPU Core 3:${color} ${alignr}${offset -10}${cpu cpu3}%${alignr}${cpubar cpu3}
+#${color1}${offset 15}CPU Core 4:${color} ${alignr}${offset -10}${cpu cpu4}%${alignr}${cpubar cpu4}
+#${color1}${offset 15}CPU Core 5:${color} ${alignr}${offset -10}${cpu cpu5}%${alignr}${cpubar cpu5}
+#${color1}${offset 15}CPU Core 6:${color} ${alignr}${offset -10}${cpu cpu6}%${alignr}${cpubar cpu6}
+#${color1}${offset 15}CPU Core 7:${color} ${alignr}${offset -10}${cpu cpu7}%${alignr}${cpubar cpu7}
+#${color1}${offset 15}CPU Core 8:${color} ${alignr}${offset -10}${cpu cpu8}%${alignr}${cpubar cpu8}
+#info about top resource intesnsive processes
 ${color1}Top Processes${goto 222}cpu%${goto 274}mem%${color}
 ${voffset 4}     1  -  ${top name 1}${alignr}${goto 170} ${goto 222}${top cpu 1} ${goto 274}${top mem 1}
      2  -  ${top name 2}${alignr} ${goto 222}${top cpu 2} ${goto 274}${top mem 2}
      3  -  ${top name 3}${alignr} ${goto 222}${top cpu 3} ${goto 274}${top mem 3}
      4  -  ${top name 4}${alignr} ${goto 222}${top cpu 4} ${goto 274}${top mem 4}
      5  -  ${top name 5}${alignr} ${goto 222}${top cpu 5} ${goto 274}${top mem 5}
-
+#memory info
 ${color2}${font Roboto:size=10}M E M O R Y   ${hr 2}${font}${color}
-${color1}${offset 30}RAM: ${color}${alignr}${offset -10}${mem} / ${memmax} ${memperc}% ${alignr}${membar}
-${color1}${offset 30}Entorpy: ${color} ${alignr}${offset -10}${entropy_avail} / ${entropy_poolsize} ${entropy_perc}% ${alignr}${entropy_bar}
-
+${color1}${offset 15}RAM: ${color}${alignr}${offset -10}${mem} / ${memmax} ${memperc}% ${alignr}${membar}
+${color1}${offset 15}Entorpy: ${color} ${alignr}${offset -10}${entropy_avail} / ${entropy_poolsize} ${entropy_perc}% ${alignr}${entropy_bar}
+#storage drives info
 ${color2}${font Roboto:size=10}D R I V E S   ${hr 2}${font}${color}
-${offset 30}${color1}Root - SSD:${color} ${alignr}${offset -10}${fs_used /} / ${fs_size /}${alignr}${fs_bar}
-${offset 30}${color1}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdc2}${alignr}${diskiograph_read sdc2 8,100}
-${offset 30}${color1}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdc2}${alignr}${diskiograph_write sdc2 8,100}
+${color1}${offset 15}Root - SSD:${color} ${alignr}${offset -10}${fs_used /} / ${fs_size /}${alignr}${fs_bar}
+${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdc2}${alignr}${diskiograph_read sdc2 8,100}
+${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdc2}${alignr}${diskiograph_write sdc2 8,100}
 
-${offset 30}${color1}Home - SSD:${color} ${alignr}${offset -10}${fs_used /home} / ${fs_size /home}${alignr}${fs_bar}
-${offset 30}${color1}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdb1}${alignr}${diskiograph_read sdb1 8,100}
-${offset 30}${color1}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdb1}${alignr}${diskiograph_write sdb1 8,100}
+${color1}${offset 15}Home - SSD:${color} ${alignr}${offset -10}${fs_used /home} / ${fs_size /home}${alignr}${fs_bar}
+${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdb1}${alignr}${diskiograph_read sdb1 8,100}
+${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdb1}${alignr}${diskiograph_write sdb1 8,100}
 
 ${offset 30}${color1}Backup - SSD:${color} ${alignr}${offset -10}${fs_used /mnt/backup} / ${fs_size /mnt/backup}${alignr}${fs_bar}
-${offset 30}${color1}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sda}${alignr}${diskiograph_read sda 8,100}
-${offset 30}${color1}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sda}${alignr}${diskiograph_write sda 8,100}
-
+${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sda}${alignr}${diskiograph_read sda 8,100}
+${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sda}${alignr}${diskiograph_write sda 8,100}
+#networking info
 ${color2}${color2}${font Roboto:size=10}N E T W O R K   ${hr 2}${font}${color}
-${color1}${offset 30}Local IP Address: ${color} ${alignr}${offset -10$}${addrs wlp112s0}
-#${color1}${offset 30}Public IP Address: ${color} ${alignr}${offset -10$}${execi 6000 ~/.conky/scripts/ip.sh}
-${color1}${offset 30}Wifi Up:${color} ${alignr}${offset -10$}${upspeed wlp112s0}${alignr}${upspeedgraph wlp112s0 8,100}
-${color1}${offset 30}Wifi Down:${color} ${alignr}${offset -10$}${downspeed wlp112s0}${alignr}${downspeedgraph wlp112s0 8,100}
-
+${color1}${offset 15}Connections: ${color} ${alignr}${offset -10$}${tcp_portmon 1 65535 count}
+${color1}${offset 15}Outbound Connection ${color}${alignr} Remote Service/Port
+${offset 30}${tcp_portmon 1 65535 rip 0} ${alignr} ${tcp_portmon 1 65535 rport 0}
+${offset 30}${tcp_portmon 1 65535 rip 1} ${alignr} ${tcp_portmon 1 65535 rport 1}
+${offset 30}${tcp_portmon 1 65535 rip 2} ${alignr} ${tcp_portmon 1 65535 rport 2}
+${offset 30}${tcp_portmon 1 65535 rip 3} ${alignr} ${tcp_portmon 1 65535 rport 3}
+${offset 30}${tcp_portmon 1 65535 rip 4} ${alignr} ${tcp_portmon 1 65535 rport 4}
+${color1}${offset 15}Local IP Address: ${color} ${alignr}${offset -10$}${addrs wlp112s0}
+#${color1}${offset 15}Public IP Address: ${color} ${alignr}${offset -10$}${execi 6000 ~/.conky/scripts/ip.sh}
+${color1}${offset 15}Wifi Up:${color} ${alignr}${offset -10$}${upspeed wlp112s0}${alignr}${upspeedgraph wlp112s0 8,100}
+${color1}${offset 15}Wifi Down:${color} ${alignr}${offset -10$}${downspeed wlp112s0}${alignr}${downspeedgraph wlp112s0 8,100}
+#graphics card info
 ${color2}${font Roboto:size=10}N V I D I A   ${hr 2}${font}
 ${color2}${font Roboto:size=10,weight:bold}${color2}${execp  nvidia-smi --query-supported-clocks=gpu_name --format=csv,noheader}${font}
-${color1}${offset 30}Nvidia Driver: ${color}${alignr}${execi 60000 nvidia-smi | grep "Driver Version"| awk {'print $3'}}
-${color1}${offset 30}GPU Temp: ${color}${alignr}${execi 60 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader} °C
-${color1}${offset 30}GPU Total:${color} ${alignr}${execi 60 nvidia-smi -q | grep -A 1 -m 1 "Utilization" | awk '{print $3}' | awk 'NF'}%
-${color1}${offset 30}GPU Clock: ${color}${alignr}${execi 60 nvidia-settings -q GPUCurrentClockFreqs | grep -m 1 Attribute | awk '{print $4}' | sed -e 's/\.//' | cut -d, -f1} MHz / ${execi 60000 nvidia-smi -q | grep -A 1 -m 1 "Max Clocks" | awk '{print $3}' | awk 'NF'} MHz
+${color1}${offset 15}Nvidia Driver: ${color}${alignr}${execi 60000 nvidia-smi | grep "Driver Version"| awk {'print $3'}}
+${color1}${offset 15}GPU Temp: ${color}${alignr}${execi 60 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader} °C
+${color1}${offset 15}GPU Total:${color} ${alignr}${execi 60 nvidia-smi -q | grep -A 1 -m 1 "Utilization" | awk '{print $3}' | awk 'NF'}%
+${color1}${offset 15}GPU Clock: ${color}${alignr}${execi 60 nvidia-settings -q GPUCurrentClockFreqs | grep -m 1 Attribute | awk '{print $4}' | sed -e 's/\.//' | cut -d, -f1} MHz / ${execi 60000 nvidia-smi -q | grep -A 1 -m 1 "Max Clocks" | awk '{print $3}' | awk 'NF'} MHz
 #nvidia-smi -q can be used to find most of this info too
-${color1}${offset 30}Mem Used: ${color}${alignr}${execi 60 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${execi 60000 nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB
+${color1}${offset 15}Mem Used: ${color}${alignr}${execi 60 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${execi 60000 nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB
 ]];
