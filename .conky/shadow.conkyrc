@@ -179,7 +179,7 @@ ${color1}${offset 15}Home - SSD:${color} ${alignr}${offset -10}${fs_used /home} 
 ${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdb1}${alignr}${diskiograph_read sdb1 8,100}
 ${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdb1}${alignr}${diskiograph_write sdb1 8,100}
 
-${offset 30}${color1}Backup - SSD:${color} ${alignr}${offset -10}${fs_used /mnt/backup} / ${fs_size /mnt/backup}${alignr}${fs_bar}
+${color1}${offset 15}Backup - SSD:${color} ${alignr}${offset -10}${fs_used /mnt/backup} / ${fs_size /mnt/backup}${alignr}${fs_bar}
 ${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sda}${alignr}${diskiograph_read sda 8,100}
 ${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sda}${alignr}${diskiograph_write sda 8,100}
 #networking info
