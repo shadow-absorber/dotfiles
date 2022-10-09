@@ -85,6 +85,11 @@ source $ZSH/oh-my-zsh.sh
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # User configuration
 
+weather() {
+    curl wttr.in/$1\?M\&format="%l%20%C+%c+%t%20%28%f%29%3a+%w%3a+%h%20humidity%3a+%p%3a+%u%20uv%3a+%P\n"
+}
+
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -111,5 +116,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 bindkey '^ ' autosuggest-accept
 
-
-export PATH="$HOME/.local/bin:$PATH"
+export PATH=/home/sam_tunder/.local/bin:/home/sam_tunder/.cargo/bin:/opt:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-17-oracle/bin:/usr/lib/jvm/java-17-oracle/db/bin
