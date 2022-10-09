@@ -85,8 +85,14 @@ source $ZSH/oh-my-zsh.sh
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # User configuration
 
-weather() {
+#gives current weather in provide location
+wr2() {
     curl wttr.in/$1\?M\&format="%l%20%C+%c+%t%20%28%f%29%3a+%w%3a+%h%20humidity%3a+%p%3a+%u%20uv%3a+%P\n"
+}
+
+#weather report for the next 3 days for provided location
+wr() {
+	curl wttr.in/$1\?M
 }
 
 
