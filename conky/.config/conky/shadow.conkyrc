@@ -139,8 +139,8 @@ ${color}${voffset 4}${font GE Inspira:size=12}${alignc}${time %A} ${time %F}, We
 #systeminfo
 ${color2}${font Roboto:size=10}${voffset 2}S Y S T E M   ${hr 2}${font}${color}
 ${color1}${voffset 8}Hostname:${color} ${alignr}${nodename}
-${color1}Distro:${color}${alignr}${execi 6000 lsb_release -a | grep 'Description'|awk {'print $2" "$3" "$4" "$5'}}
-${color1}Kernel:${color}${alignr}${exec uname} ${exec uname -r}
+${color1}Distro:${color}${alignr}${execi 60000 lsb_release -a | grep 'Description'|awk {'print $2" "$3" "$4" "$5'}}
+${color1}Kernel:${color}${alignr}${execi 60000 uname} ${execi 60000 uname -r}
 ${color1}Desktop:${color}${alignr}$XDG_CURRENT_DESKTOP
 ${color1}Uptime:${color} ${alignr}${uptime}
 ${color1}Battery:${color} ${alignr}${battery_percent BAT0}% ${alignr}${battery_bar BAT0}
@@ -172,16 +172,12 @@ ${color1}${offset 15}Entorpy: ${color} ${alignr}${offset -10}${entropy_avail} / 
 #storage drives info
 ${color2}${font Roboto:size=10}D R I V E S   ${hr 2}${font}${color}
 ${color1}${offset 15}Root - SSD:${color} ${alignr}${offset -10}${fs_used /} / ${fs_size /}${alignr}${fs_bar}
-${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdc2}${alignr}${diskiograph_read sdc2 8,100}
-${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdc2}${alignr}${diskiograph_write sdc2 8,100}
+${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdc2}${alignr}${diskiograph_read sdc2 8,100 #ff8c8c #ff8c8c}
+${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdc2}${alignr}${diskiograph_write sdc2 8,100 #ff8c8c #ff8c8c}
 
 ${color1}${offset 15}Home - SSD:${color} ${alignr}${offset -10}${fs_used /home} / ${fs_size /home}${alignr}${fs_bar}
-${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdb1}${alignr}${diskiograph_read sdb1 8,100}
-${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdb1}${alignr}${diskiograph_write sdb1 8,100}
-
-${color1}${offset 15}Backup - SSD:${color} ${alignr}${offset -10}${fs_used /mnt/backup} / ${fs_size /mnt/backup}${alignr}${fs_bar}
-${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sda}${alignr}${diskiograph_read sda 8,100}
-${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sda}${alignr}${diskiograph_write sda 8,100}
+${color1}${offset 15}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sdb1}${alignr}${diskiograph_read sdb1 8,100 #ff8c8c #ff8c8c}
+${color1}${offset 15}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/sdb1}${alignr}${diskiograph_write sdb1 8,100 #ff8c8c #ff8c8c}
 #networking info
 ${color2}${color2}${font Roboto:size=10}N E T W O R K   ${hr 2}${font}${color}
 ${color1}${offset 15}Connections: ${color} ${alignr}${offset -10$}${tcp_portmon 1 65535 count}
@@ -191,10 +187,10 @@ ${offset 30}${tcp_portmon 1 65535 rip 1} ${alignr} ${tcp_portmon 1 65535 rport 1
 ${offset 30}${tcp_portmon 1 65535 rip 2} ${alignr} ${tcp_portmon 1 65535 rport 2}
 ${offset 30}${tcp_portmon 1 65535 rip 3} ${alignr} ${tcp_portmon 1 65535 rport 3}
 ${offset 30}${tcp_portmon 1 65535 rip 4} ${alignr} ${tcp_portmon 1 65535 rport 4}
-${color1}${offset 15}Local IP Address: ${color} ${alignr}${offset -10$}${addrs wlp112s0}
+${color1}${offset 15}Local IP Address: ${color} ${alignr}${offset -10$}${addrs wlan0}
 #${color1}${offset 15}Public IP Address: ${color} ${alignr}${offset -10$}${execi 6000 ~/.conky/scripts/ip.sh}
-${color1}${offset 15}Wifi Up:${color} ${alignr}${offset -10$}${upspeed wlp112s0}${alignr}${upspeedgraph wlp112s0 8,100}
-${color1}${offset 15}Wifi Down:${color} ${alignr}${offset -10$}${downspeed wlp112s0}${alignr}${downspeedgraph wlp112s0 8,100}
+${color1}${offset 15}Wifi Up:${color} ${alignr}${offset -10$}${upspeed wlan0}${alignr}${upspeedgraph wlan0 8,100 #ff8c8c #ff8c8c}
+${color1}${offset 15}Wifi Down:${color} ${alignr}${offset -10$}${downspeed wlan0}${alignr}${downspeedgraph wlan0 8,100 #ff8c8c #ff8c8c}
 #graphics card info
 ${color2}${font Roboto:size=10}N V I D I A   ${hr 2}${font}
 ${color2}${font Roboto:size=10,weight:bold}${color2}${execp  nvidia-smi --query-supported-clocks=gpu_name --format=csv,noheader}${font}
