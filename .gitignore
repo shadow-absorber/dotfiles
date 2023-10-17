@@ -4,3 +4,10 @@ zsh/.config/zsh/.zsh_history
 zsh/.config/zsh/.zsh_history.bak
 plugins
 plugins/
+variety/.config/variety/.firstrun
+variety/.config/variety/.version
+variety/.config/variety/history.txt
+variety/.config/variety/scripts/
+variety/.config/variety/variety.log
+variety/.config/variety/variety_latest_default.conf
+variety/.config/variety/wallpaper/
