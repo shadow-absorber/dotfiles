@@ -10,15 +10,21 @@ To install both on arch:
 pacman -S git stow
 ```
 
+To install both on Fedora:
+```bash
+sudo dnf install git stow
+```
+
 To install both on Ubuntu:
 ```bash
 sudo apt install git stow
 ```
 
-To install both on Fedora:
+To install both on Debian:
 ```bash
-sudo dnf install git stow
+sudo apt install git stow
 ```
+
 
 ## Using stow to handle dotfiles
 
