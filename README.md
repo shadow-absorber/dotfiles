@@ -15,12 +15,7 @@ To install both on Fedora:
 sudo dnf install git stow
 ```
 
-To install both on Ubuntu:
-```bash
-sudo apt install git stow
-```
-
-To install both on Debian:
+To install both on Ubuntu/Debian:
 ```bash
 sudo apt install git stow
 ```
