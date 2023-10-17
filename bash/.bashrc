@@ -179,3 +179,37 @@ haste() { a=$(cat); curl -X POST -s -d "$a" https://hastebin.com/documents | awk
 cat /etc/issue.net
 echo
 
+# Enable Vi mode in Bash
+set -o vi
+
+# ci", ci', ci`, di", etc
+select_quoted() {
+    READLINE_LINE=$(select-quoted "$READLINE_LINE")
+}
+bind -m vi-command -x '"i\047":"select_quoted"'
+bind -m vi-command -x '"a\047":"select_quoted"'
+bind -m vi-command -x '"i\042":"select_quoted"'
+bind -m vi-command -x '"a\042":"select_quoted"'
+bind -m vi-command -x '"i\140":"select_quoted"'
+bind -m vi-command -x '"a\140":"select_quoted"'
+
+# ci{, ci(, ci<, di{, etc
+select_bracketed() {
+    READLINE_LINE=$(select-bracketed "$READLINE_LINE")
+}
+bind -m vi-command -x '"i\{":"select_bracketed"'
+bind -m vi-command -x '"a\{":"select_bracketed"'
+bind -m vi-command -x '"i\(":"select_bracketed"'
+bind -m vi-command -x '"a\(":"select_bracketed"'
+bind -m vi-command -x '"i\<":"select_bracketed"'
+bind -m vi-command -x '"a\<":"select_bracketed"'
+bind -m vi-command -x '"i\177":"select_bracketed"'
+bind -m vi-command -x '"a\177":"select_bracketed"'
+bind -m vi-command -x '"i\173":"select_bracketed"'
+bind -m vi-command -x '"a\173":"select_bracketed"'
+bind -m vi-command -x '"i\175":"select_bracketed"'
+bind -m vi-command -x '"a\175":"select_bracketed"'
+bind -m vi-command -x '"i\040":"select_bracketed"'
+bind -m vi-command -x '"a\040":"select_bracketed"'
+bind -m vi-command -x '"i\102":"select_bracketed"'
+bind -m vi-command -x '"a\102":"select_bracketed"'
