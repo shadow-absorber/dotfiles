@@ -35,11 +35,10 @@ pkhex() {
 }
 
 # setup pyenv
-export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-export PATH=/home/sam_tunder/.config/lf:/home/sam_tunder/.config/scripts:/home/sam_tunder/.local/bin:/home/sam_tunder/.pyenv/shims:/home/sam_tunder/.local/share/gem/ruby/3.0.0/bin:/home/sam_tunder/.npm/npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+export PATH=/home/sam_tunder/.config/lf:/home/sam_tunder/.config/scripts:/home/sam_tunder/.local/bin:/home/sam_tunder/.local/share/pyenv/shims:/home/sam_tunder/.local/share/gem/ruby/3.0.0/bin:/home/sam_tunder/.npm/npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 PATH="/home/sam_tunder/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/sam_tunder/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;

@@ -4,7 +4,7 @@ export ZDOTDIR="$HOME/.config/zsh"
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
-
+export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 
 # Default Apps
 export EDITOR="nvim"
@@ -16,6 +16,17 @@ export IMAGE="sxiv"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less -r"
+
+# move apps to xdg dirs
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export PERL_CPANM_HOME="$XDG_CACHE_HOME"/cpanm
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+export GOPATH="$XDG_DATA_HOME"/go
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
+export PYENV_ROOT="$XDG_DATA_HOME"/pyenv
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+export WINEPREFIX="$XDG_DATA_HOME"/wine
 
 # Start blinking
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
