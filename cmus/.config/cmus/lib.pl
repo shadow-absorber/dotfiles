@@ -1006,6 +1006,261 @@
 /home/sam_tunder/Music/Master Boot Record/MASTER BOOT RECORD - PERSONAL COMPUTER/MASTER BOOT RECORD - PERSONAL COMPUTER - 08 80486SX.flac
 /home/sam_tunder/Music/Master Boot Record/MASTER BOOT RECORD - PERSONAL COMPUTER/MASTER BOOT RECORD - PERSONAL COMPUTER - 09 80586.flac
 /home/sam_tunder/Music/Master Boot Record/MASTER BOOT RECORD - PERSONAL COMPUTER/MASTER BOOT RECORD - PERSONAL COMPUTER - 10 80686.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 01 Crucifixation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 02 Ritual of Destruction.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 03 Hex.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 04 The Black Flame.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 05 Predator.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Crucifixation/Occams Laser - Crucifixation - 06 Lake of Fire.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 01 Flagellation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 02 Embers of Faith.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 03 Lurking in the Shadows.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 04 Mutilation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 05 Scars.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Flagellation/Occams Laser - Flagellation - 06 Pain.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 01 Limbo.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 02 Lust.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 03 Gluttony.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 04 Greed.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 05 Anger.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 06 Heresy.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 07 Violence.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 08 Fraud.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Nine Circles/Occams Laser - Nine Circles - 09 Treachery.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 01 Deceiver.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 02 Majestic 12.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 03 Craft of the Untamed.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 04 The Horsemen.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 05 Fenrir.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 06 Polybius.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 07 Seven Rays.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 08 Harvesting the Red.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 09 Putrefaction.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 10 Fatal.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 86/Occams Laser - Occult 86 - 11 Hunters.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 01 Excommunicated.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 02 The Late Repentant.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 03 Purging of Sin.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 04 Terrace of the Envious.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 05 Fire of Wrath.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 06 Ceaseless Existence.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 07 Avarice and Prodigality.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 08 Comforts of the Flesh.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 09 Wall of Flame.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Purgatory/Occams Laser - Purgatory - 10 The Earthly Paradise.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 01 Prelude.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 02 Master Control Program.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 03 Flynn's Arcade.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 04 Space Paranoids.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 05 The Grid.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 06 Pursuit.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 07 He Fights for the Users.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 08 Sector 84Q.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 09 Outlands.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 10 Null Unit.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 11 Sark.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 12 Simulated Reality.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 13 Knocking on the Sky.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 14 Rectify.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 15 Dumont's Defiance.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 16 Flynn's Sacrifice.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid/Occams Laser - The Grid - 17 End of Line.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 01 Abandoned Vows.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 02 Deficient Justice.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 03 The Lovers.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 04 Illumination.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 05 Warriors of the Faith.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 06 The Just Rulers.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 07 Temperance.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 08 Sphere of the Fixed Stars.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 09 The Primum Mobile.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Ascension/Occams Laser - Ascension - 10 Empyrean Rose.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 01 Indoctrination.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 02 Chapel of Wires.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 03 Digital Alchemy.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 04 Cleansed of Truth.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 05 Taking Over.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 06 Feast.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 07 Vision of Fire.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 08 Prophecy.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 09 To the Slaughter.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 10 Sigil.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 87/Occams Laser - Occult 87 - 11 Wraith.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Four Horsemen/Occams Laser - The Four Horsemen - 01 Death.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Four Horsemen/Occams Laser - The Four Horsemen - 02 War.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Four Horsemen/Occams Laser - The Four Horsemen - 03 Famine.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Four Horsemen/Occams Laser - The Four Horsemen - 04 Conquest.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 01 Transfusion.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 02 Left Behind.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 03 Vessel.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 04 Quarantine.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 05 Hemostasis (feat. Kid Neon).flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 06 Coagulate.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 07 New Blood.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 08 Factor XIII.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 09 Iconography.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 10 Claret.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood/Occams Laser - New Blood - 11 It Gets Darker.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 01 Reformation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 02 Satanic Panic.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 03 Slither Into Your Soul.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 04 Sinister Minister.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 05 Apostles.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 06 Martyr Farker.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 07 Ordained In Hell.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 08 Sacrosanct.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 09 Opposer.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 10 The Solar Temple.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 88/Occams Laser - Occult 88 - 11 Even The Devil Needs A Friend.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 01 The Rapture.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 02 Chaos.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 03 Nephilim.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 04 Invocation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 05 Beyond Pure Reason.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 06 Hellfire.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 07 End of Days.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 08 Heaven's Gate.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 09 Grimoire.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 10 Redemption.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 89/Occams Laser - Occult 89 - 11 Eternal Deceiver.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 01 Dawn.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 02 Tension.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 03 Naked.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 04 Focus.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 05 Grit.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 06 Bounce.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 07 Broken Tone.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Tension/Occams Laser - Tension - 08 Dusk.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 01 Bloodshot.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 02 Red Frenzy.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 03 Breakneck.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 04 Receptor.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 05 Sanguine.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 06 Bleeding Edge.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 07 Hemochrome.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 08 Arterial Motive.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 09 Scarlett.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood II/Occams Laser - New Blood II - 10 Exsanguination.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 01 Colossus.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 02 Heck Tech.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 03 Ronin.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 04 Perfect Hatred.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 05 Fate's Path.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 06 Conduit.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 07 Ebb and Flow.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 08 Lost Faith.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 09 Dead Simple.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 10 Chivalry.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. I/Occams Laser - Odyssey of Noise Vol. I - 11 Shade.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 01 Disappearance.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 02 ENCOM.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 03 Pager.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 04 Return to the Arcade.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 05 Digitized.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 06 Recognizer.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 07 Sirens.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 08 Bleeding User.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 09 Codified Likeness Utility.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 10 Flynn Lives.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 11 The Perfect System.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 12 Isomorphic Algorithms.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 13 Closed Portal.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 14 Identity Disc.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 15 Gem.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 16 Castor.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 17 Trapped.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 18 Solar Sailer.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 19 The Rectifier.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 20 Light Fighter.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 21 Sea of Simulation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 22 Reintegration.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 23 Rematerialized.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Return to the Grid/Occams Laser - Return to the Grid - 24 Backup and Deactivate.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 01 Purification.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 02 The Maw.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 03 Insanity.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 04 Enthralled.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 05 Mal Intent.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 06 Red Gates.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 07 Savage Acts.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 08 Ossuary.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 09 Cleansed by Flame.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 10 The Spiral.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 90/Occams Laser - Occult 90 - 11 Last Rites.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 01 Fortress of Noise.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 02 The Tower.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 03 Eye of the Storm.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 04 Unholy Temple.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 05 Halls of the Damned.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 06 Control.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 07 Odyssey.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 08 Panic.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 09 Indescribable Madness.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 10 Lament.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. II/Occams Laser - Odyssey of Noise Vol. II - 11 Machination.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 01 Mount Pain.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 02 Ragged Edge.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 03 Exigent.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 04 Chasm of Fear.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 05 The Lair.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 06 Megalith.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 07 Unfinished Business.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 08 The Abyss.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 09 Sever Ties.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 10 No Turning Back.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Odyssey of Noise Vol. III/Occams Laser - Odyssey of Noise Vol. III - 11 What Lies Beyond.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 01 Prometheus.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 02 Charred.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 03 Kindling.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 04 Scintillation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 05 Aether.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 06 Spring the Trap.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 07 The Flame.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 08 Monsters of Men.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 09 Heat.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 10 Incandescence.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Occult 91/Occams Laser - Occult 91 - 11 Circle of Trust.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 01 Shadow.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 02 Phantasm.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 03 Manifestation.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 04 Illusion of Power.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 05 Relic.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 06 Elysian Fields.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 07 Malevolent Spirit.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 08 The Last Vestige.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 09 Superlunary.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - Phantasm/Occams Laser - Phantasm - 10 Future Echo.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 01 Bloodfall.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 02 Destroyer.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 03 Flesh & Blood.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 04 Long Forgotten.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 05 Antigen.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 06 Venous.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 07 Origin.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 08 Hecatomb.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 09 Extraction.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 10 Vital.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 11 Incarnadine.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - New Blood III/Occams Laser - New Blood III - 12 Cruor.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 01 ENCOM Forever.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 02 MCTRL_751.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 03 Sins of the Father.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 04 The Grid Lives.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 05 CTRL.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 06 Forgotten Path.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 07 Invasion.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 08 Command.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 09 The Unknowable.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 10 Encryption.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 11 Flynn Pt III.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 12 Terminal.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 13 Array.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 14 Unravelling Code.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 15 Data Stream.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 16 New Protocol.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 17 Restore Point.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 18 Recovery.flac
+/home/sam_tunder/Music/Occams Laser/Occams Laser - The Grid Lives/Occams Laser - The Grid Lives - 19 Legacy.flac
 /home/sam_tunder/Music/Orden Ogan/Orden_Ogan-Vale_(Re-Release_2010)_/01.Graves_Bay_(Instrumental).flac
 /home/sam_tunder/Music/Orden Ogan/Orden_Ogan-Vale_(Re-Release_2010)_/02.To_New_Shores_Of_Sadness.flac
 /home/sam_tunder/Music/Orden Ogan/Orden_Ogan-Vale_(Re-Release_2010)_/03.Winds_Of_Vale.flac

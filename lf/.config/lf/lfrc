@@ -190,3 +190,5 @@ map L bottom
 map R reload
 map C clear
 map U unselect
+map mp1 set previewer ~/.config/lf/preview
+map mp2 set previewer ~/.config/lf/preview-alt
