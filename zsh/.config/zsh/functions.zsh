@@ -8,6 +8,22 @@ wr() {
 	curl -s wttr.in/$1\?M
 }
 
+dict() {
+    curl -s dict://dict.org/d:$1
+}
+
+dictm() {
+    curl -s dict://dict.org/m:$1
+}
+
+cht() {
+    curl cht.sh/$1
+}
+
+rate() {
+    curl -s rate.sx/$1
+}
+
 countdown() {
     start="$(( $(date '+%s') + $1))"
     while [ $start -ge $(date +%s) ]; do
