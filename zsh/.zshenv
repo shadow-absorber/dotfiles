@@ -9,7 +9,7 @@ export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 # Default Apps
 export EDITOR="nvim"
 export VISUAL="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="kitty"
 export BROWSER="firefox"
 export VIDEO="mpv"
 export IMAGE="sxiv"
@@ -28,6 +28,7 @@ export PYENV_ROOT="$XDG_DATA_HOME"/pyenv
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export WINEPREFIX="$XDG_DATA_HOME"/wine
+export W3M_DIR="$XDG_CONFIG_HOME"/w3m
 
 # Start blinking
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
