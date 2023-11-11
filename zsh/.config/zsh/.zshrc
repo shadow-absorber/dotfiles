@@ -67,7 +67,7 @@ source $HOME/.config/zsh/plugins/auto-notify.plugin.zsh
 
 source $HOME/.config/zsh/functions.zsh
 source $HOME/.config/zsh/aliases.zsh
-
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
