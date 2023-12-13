@@ -1,6 +1,6 @@
 # Basic Settings
-set previewer ~/.config/lf/preview
-set cleaner ~/.config/lf/cleaner
+set previewer ~/.config/lf/lf-preview-img
+set cleaner ~/.config/lf/lf-clean-img
 
 set preview true
 set hidden true
