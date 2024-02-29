@@ -65,6 +65,8 @@ source $HOME/.config/zsh/vim-keybinds.zsh
 
 source $HOME/.config/zsh/plugins/auto-notify.plugin.zsh
 
+source /etc/profile.d/devkit-env.sh
+
 source $HOME/.config/zsh/functions.zsh
 source $HOME/.config/zsh/aliases.zsh
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
