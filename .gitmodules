@@ -4,18 +4,6 @@
 [submodule "alacritty/.config/alacritty/themes"]
 	path = alacritty/.config/alacritty/themes
 	url = https://github.com/alacritty/alacritty-theme.git
-[submodule "tmux/.config/tmux/plugins/tmux-sensible"]
-	path = tmux/.config/tmux/plugins/tmux-sensible
-	url = https://github.com/tmux-plugins/tmux-sensible.git
-[submodule "tmux/.config/tmux/plugins/tmux-tokyo-night"]
-	path = tmux/.config/tmux/plugins/tmux-tokyo-night
-	url = https://github.com/fabioluciano/tmux-tokyo-night.git
-[submodule "tmux/.config/tmux/plugins/tmux-yank"]
-	path = tmux/.config/tmux/plugins/tmux-yank
-	url = https://github.com/tmux-plugins/tmux-yank.git
-[submodule "tmux/.config/tmux/plugins/vim-tmux-navigator"]
-	path = tmux/.config/tmux/plugins/vim-tmux-navigator
-	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "tmux/.config/tmux/tpm"]
 	path = tmux/.config/tmux/tpm
 	url = https://github.com/tmux-plugins/tpm.git
