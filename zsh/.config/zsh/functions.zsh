@@ -1,4 +1,10 @@
 #gives current weather in provide location
+
+git-key() {
+    eval "$(ssh-agent)"
+    ssh-add /home/sam_tunder/.ssh/github
+}
+
 wr2() {
     curl -s wttr.in/$1\?M\&format="%l%20%C+%c+%t%20%28%f%29%3a+%w%3a+%h%20humidity%3a+%p%3a+%u%20uv%3a+%P\n"
 }
