@@ -117,3 +117,5 @@ export LESS_TERMCAP_ue=$(tput sgr0)
 # End bold, blinking, standout, underline
 export LESS_TERMCAP_me=$(tput sgr0)
 
+# enable zoxide directory changer
+eval "$(zoxide init --cmd cd zsh)"
