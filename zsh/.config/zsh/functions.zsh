@@ -2,7 +2,7 @@
 
 git-key() {
     eval "$(ssh-agent)"
-    ssh-add /home/sam_tunder/.ssh/github
+    ssh-add  $HOME/.ssh/github
 }
 
 wr2() {
