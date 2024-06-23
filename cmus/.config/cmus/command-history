@@ -1,9 +1,3 @@
+colorscheme default
 colorscheme catppuccin
-save
-dl-playlist
-pl-create "The Divine Trilogy"
-create 
-new playlist
-set color_win_bg=default
-colorscheme jellybeans
-update-cache 
+q
