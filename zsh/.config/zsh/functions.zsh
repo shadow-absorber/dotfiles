@@ -60,11 +60,16 @@ colour-print-list()
 # USE LF TO SWITCH DIRECTORIES AND BIND IT TO CTRL-O
 lfcd () {
     tmp="$(mktemp)"
-    lfrun -last-dir-path="$tmp" "$@"
+    # `command` is needed in case `lfcd` is aliased to `lf`
+    command lf -last-dir-path="$tmp" "$@"
     if [ -f "$tmp" ]; then
         dir="$(cat "$tmp")"
         rm -f "$tmp"
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+        if [ -d "$dir" ]; then
+            if [ "$dir" != "$(pwd)" ]; then
+                cd "$dir"
+            fi
+        fi
     fi
 }
 
