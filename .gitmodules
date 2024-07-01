@@ -7,3 +7,6 @@
 [submodule "tmux/.config/tmux/tpm"]
 	path = tmux/.config/tmux/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = git@github.com:shadow-absorber/kickstart-modular.nvim.git
