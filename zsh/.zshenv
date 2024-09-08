@@ -16,7 +16,7 @@ export IMAGE="nsxiv"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less -r"
-export SUDO_ASKPASS="$HOME/.config/rofi/bin/sudo_rofi.sh"
+export SUDO_ASKPASS="$HOME/.config/rofi/bin/askpass"
 
 # move apps to xdg dirs
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
