@@ -117,3 +117,16 @@ export LESS_TERMCAP_me=$(tput sgr0)
 
 # enable zoxide directory changer
 eval "$(zoxide init --cmd cd zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+# use eza if installed otherwise default to ls
+if [[ $(command -v "eza") ]]; then
+  alias ls="eza"
+fi
+
+# use bat if installed otherwise default to cat
+if [[ $(command -v "bat") ]]; then
+  alias cat="bat --plain"
+fi
