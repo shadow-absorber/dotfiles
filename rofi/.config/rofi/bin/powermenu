@@ -23,7 +23,7 @@ else
 		reboot="󰜉"
 		lock="󰍁"
 		suspend="󰒲"
-		logout="󰍃 "
+		logout="󰍃"
 
   # Section 2
 #		shutdown="󰐥"

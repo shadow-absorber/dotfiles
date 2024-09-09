@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 rofi \
 	-show run \
+	-dpi 1 \
 	-scroll-method 0 \
 	-terminal kitty \
 	-theme "$HOME"/.config/rofi/config/runner.rasi

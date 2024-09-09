@@ -6,6 +6,10 @@
     text-color:             @FG;
 }
 
+configuration {
+    dpi:                    192;
+}
+
 window {
     width:      	        200px;
     padding:                20px;

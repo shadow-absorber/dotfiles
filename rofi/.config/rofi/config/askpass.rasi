@@ -6,9 +6,13 @@
     text-color:             @FG;
 }
 
+configuration {
+    dpi:                    192;
+}
+
 window {
-    width:        	        250px;
-    padding:    	        20px;
+    width:        	        500px;
+    padding:    	        40px;
     border:		            0px 0px 2px 0px;
     border-radius:          8px;
     border-color:           @BDR;
@@ -19,6 +23,6 @@ window {
 
 entry {
     expand: 		        true;
-    width: 		            150px;
+    width: 		            300px;
     text-color:		        @BDR;
 }
