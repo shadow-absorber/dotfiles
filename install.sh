@@ -1,8 +1,11 @@
 #!/bin/bash
 
 echo "Install script for arch linux"
-
+# updates system
 pacman -Syyu
+
+pacman -S ttf-mononoki-nerd alacritty bat dunst lf yazi neovim rofi-wayland wofi zsh tmux variety wlogout
+# installs packages to use stow for dotfiles
 pacman -S git stow
 
 git clone --recursive git@github.com:shadow-absorber/dotfiles.git
