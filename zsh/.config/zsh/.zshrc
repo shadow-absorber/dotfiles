@@ -10,8 +10,14 @@ source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
+# Ghostty shell integration for Bash. This must be at the top of your bashrc!
+if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
+    builtin source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
+fi
+
 setopt autocd       # Automatically cd into typed directory.
 
+export TEST="testing values blargh"
 
 autoload -U compinit && compinit -u
 zstyle ':completion:*' menu select
@@ -67,6 +73,17 @@ source $HOME/.config/zsh/plugins/auto-notify.plugin.zsh
 
 source $HOME/.config/zsh/functions.zsh
 source $HOME/.config/zsh/aliases.zsh
+
+# use eza if installed otherwise default to ls
+if [[ $(command -v "eza") ]]; then
+  alias ls="eza --color=always"
+fi
+
+# use bat if installed otherwise default to cat
+if [[ $(command -v "bat") ]]; then
+  alias cat="bat --plain"
+fi
+
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
 export CLICOLOR=1
@@ -120,13 +137,3 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
-
-# use eza if installed otherwise default to ls
-if [[ $(command -v "eza") ]]; then
-  alias ls="eza"
-fi
-
-# use bat if installed otherwise default to cat
-if [[ $(command -v "bat") ]]; then
-  alias cat="bat --plain"
-fi
