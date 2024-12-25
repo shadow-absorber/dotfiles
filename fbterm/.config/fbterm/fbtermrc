@@ -1,0 +1,87 @@
+# Configuration for FbTerm
+
+# Lines starting with '#' are ignored.
+# Note that end-of-line comments are NOT supported, comments must be on a line of their own.
+
+
+# font family names/pixelsize used by fbterm, multiple font family names must be seperated by ','
+# and using a fixed width font as the first is strongly recommended
+font-names=Mononoki Nerd Font Mono, Symbols Nerd Font
+font-size=32
+
+# force font width (and/or height), usually for non-fixed width fonts
+# legal value format: n (fw_new = n), +n (fw_new = fw_old + n), -n (fw_new = fw_old - n)
+#font-width=
+#font-height=
+
+# terminal palette consists of 256 colors (0-255)
+# 0 = black, 1 = red, 2 = green, 3 = brown, 4 = blue, 5 = magenta, 6 = cyan, 7 = white
+# 8-15 are brighter versions of 0-7
+# 16-231 is 6x6x6 color cube
+# 232-255 is grayscale
+
+# sets up colors for foreground and background
+color-240=1e1e2e
+color-241=cdd6f4
+
+# sets color foreground and background to the previous lines
+color-background=240
+color-foreground=241
+
+# black
+color-0=45475a
+color-8=585b70
+
+# red
+color-1=f38ba8
+color-9=f38ba8
+
+# green
+color-2=a6e3a1
+color-10=a6e3a1
+
+# yellow
+color-3=f9e2af
+color-11=f9e2af
+
+# blue
+color-4=89b4fa
+color-12=89b4fa
+
+# magenta
+color-5=f5c2e7
+color-13=f5c2e7
+
+# cyan
+color-6=94e2d5
+color-14=94e2d5
+
+# white
+color-7=bac2de
+color-15=a6adc8
+
+
+# max scroll-back history lines of every window, value must be [0 - 65535], 0 means disable it
+history-lines=0
+
+# up to 5 additional text encodings, multiple encodings must be seperated by ','
+# run 'iconv --list' to get available encodings.
+text-encodings=UTF-8,LATIN1
+
+# cursor shape: 0 = underline, 1 = block
+# cursor flash interval in milliseconds, 0 means disable flashing
+cursor-shape=1
+cursor-interval=0
+
+# additional ascii chars considered as part of a word while auto-selecting text, except ' ', 0-9, a-z, A-Z
+word-chars=._-
+
+# change the clockwise orientation angle of screen display
+# available values: 0 = 0 degree, 1 = 90 degrees, 2 = 180 degrees, 3 = 270 degrees
+screen-rotate=0
+
+# specify the favorite input method program to run
+input-method=
+
+# treat ambiguous width characters as wide
+ambiguous-wide=no
