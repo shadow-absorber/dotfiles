@@ -1,3 +1,8 @@
-colorscheme default
+colorscheme catppuccin-alt
+update-cache 
 colorscheme catppuccin
+clear
+save
+Save
+colorscheme default
 q
