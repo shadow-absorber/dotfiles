@@ -46,6 +46,7 @@ tooltip {
 #memory,
 #pulseaudio,
 #custom-notification,
+#custom-powerbutton,
 #clock,
 #mpris,
 #tray {
@@ -57,10 +58,6 @@ tooltip {
 
 #clock {
   color: @rosewater;
-}
-
-#clock.simpleclock {
-  margin-right: 0.8rem;
 }
 
 #pulseaudio {
@@ -78,6 +75,11 @@ tooltip {
 
 #cpu {
   color: @blue;
+}
+
+#custom-powerbutton {
+  margin-right: 0.8rem;
+  color: @red;
 }
 
 #mpris {

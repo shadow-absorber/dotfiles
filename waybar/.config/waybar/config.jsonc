@@ -21,7 +21,8 @@
     "memory",
     "pulseaudio",
     "clock",
-    "clock#simpleclock"
+    "clock#simpleclock",
+    "custom/powerbutton"
   ],
   "tray": {
     "spacing": 10
@@ -107,5 +108,10 @@
     "on-click": "sleep 0.1 && swaync-client -t -sw",
     "return-type": "json",
     "tooltip": false
+  },
+  "custom/powerbutton": {
+    "format": "  ",
+    "interval": "once",
+    "on-click": "wlogout -p layer-shell"
   }
 }
