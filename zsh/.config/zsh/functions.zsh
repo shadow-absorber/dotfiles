@@ -11,7 +11,7 @@ wr2() {
 
 #weather report for the next 3 days for provided location
 wr() {
-	curl -s wttr.in/$1\?M
+    curl -s wttr.in/$1\?M
 }
 
 dict() {
@@ -20,6 +20,10 @@ dict() {
 
 dictm() {
     curl -s dict://dict.org/m:$1
+}
+
+dict2() {
+    curl -s "https://api.dictionaryapi.dev/api/v2/entries/en_US/$1" | jq -r '.[].meanings[] | "\(.partOfSpeech): \(.definitions[].definition)\n"'
 }
 
 cht() {

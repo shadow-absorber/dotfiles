@@ -1,0 +1,2 @@
+BEETS_LIBRARY='~/beets/data/musiclibrary.db'
+BEETS_CONFIG='/home/sam_tunder/.config/beets/config.yaml'
