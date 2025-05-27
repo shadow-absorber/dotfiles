@@ -1,0 +1,17 @@
+plugins: convert web edit lyrics
+
+directory: ~/beets/music
+library: ~/beets/data/musiclibrary.db
+
+convert:
+  dest: ~/beets/converted
+  format: flac
+  never_convert_lossy_files: yes
+  embed: no
+  copy_album_art: yes
+
+lyrics:
+  auto: yes
+  sources: [ lrclib, genius ]
+  synced: yes
+  force: yes
