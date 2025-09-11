@@ -14,11 +14,11 @@ wr() {
     curl -s wttr.in/$1\?M
 }
 
-dict() {
+dict1() {
     curl -s dict://dict.org/d:$1
 }
 
-dictm() {
+dict1m() {
     curl -s dict://dict.org/m:$1
 }
 

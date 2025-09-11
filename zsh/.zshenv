@@ -9,8 +9,8 @@ export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 # Default Apps
 export EDITOR="nvim"
 export VISUAL="nvim"
-export TERMINAL="alacritty"
-export BROWSER="firefox"
+export TERMINAL="ghostty"
+# export BROWSER="librewolf"
 export VIDEO="mpv"
 export IMAGE="nsxiv"
 export COLORTERM="truecolor"

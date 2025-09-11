@@ -132,6 +132,9 @@ export LESS_TERMCAP_ue=$(tput sgr0)
 # End bold, blinking, standout, underline
 export LESS_TERMCAP_me=$(tput sgr0)
 
+# set dict config file dir
+# dict -c "$XDG_CONFIG_HOME"/dict/dict.conf
+
 # enable zoxide directory changer
 eval "$(zoxide init --cmd cd zsh)"
 
