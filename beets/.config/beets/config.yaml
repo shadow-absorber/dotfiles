@@ -1,8 +1,16 @@
-plugins: convert web edit lyrics
+plugins: musicbrainz convert web edit embedart fetchart lyrics replaygain mbcollection
 
 directory: ~/beets/music
 library: ~/beets/data/musiclibrary.db
 
+musicbrainz:
+  https: yes
+  genres: yes
+  external_ids:
+    bandcamp: yes
+#mbcollection:
+#  auto: yes
+#  collection: fdea176a-d994-4d17-9441-7c114e41e0dd
 convert:
   dest: ~/beets/converted
   format: flac
@@ -10,8 +18,20 @@ convert:
   embed: no
   copy_album_art: yes
 
+embedart:
+  auto: yes
+  ifempty: yes
+
+fetchart:
+  auto: yes
+
 lyrics:
   auto: yes
   sources: [ lrclib, genius ]
   synced: yes
   force: yes
+
+replaygain:
+  auto: yes
+  backend: ffmpeg
+  threads: 4
