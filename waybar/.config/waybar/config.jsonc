@@ -78,15 +78,17 @@
     "on-click": "pavucontrol"
   },
   "clock#simpleclock": {
-    "timezones": [ "Europe/Stockholm", "UTC" ],
+    "timezones": [ "Europe/Stockholm", "UTC", "US/Mountain" ],
     "tooltip": false,
     "format": " {:%Z %H:%M}",
     "actions": {
-      "on-click": "tz_up"
+      "on-click": "tz_up",
+      "on-click-right": "tz_down"
     }
   },
   "clock": {
     "format": " {:L%a %d %b}",
+    "timezone": "Europe/Stockholm",
     "calendar": {
       "format": {
         "days": "<span weight='normal'>{}</span>",
