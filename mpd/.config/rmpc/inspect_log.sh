@@ -1,16 +1,17 @@
 #!/usr/bin/env sh
 
-LOGFILE="$HOME/.mpd/log"
+LOGFILE="$HOME/.config/mpd/mpd.log"
 OUTFILE="$HOME/.config/rmpc/genre_counts.txt"
 TMPFILE="$(mktemp)"
 
 # Extract and accumulate genres to tmpfile
 grep "player: played" "$LOGFILE" | while read -r line; do
   filepath=$(echo "$line" | sed -n 's/.*player: played "\(.*\)"/\1/p')
-  fullpath="$HOME/Music/mpd/$filepath"
+  fullpath="$HOME/beets/music/$filepath"
 
   if [ -f "$fullpath" ]; then
-    genre=$(eyeD3 --no-color "$fullpath" | grep "genre:" | sed -E 's/.*genre: (.*) \(id.*/\1/')
+    genre=$(exiftool -s -s -s -Genre "$fullpath" )
+    # echo $genre
     IFS=';' 
     for g in $genre; do
       clean_genre=$(echo "$g" | xargs)
@@ -24,3 +25,4 @@ sort "$TMPFILE" | uniq -c | sort -k1 -nr | awk '{ $1=$1; print substr($0, index(
 
 rm "$TMPFILE"
 echo "✅ Genre frequency list saved to $OUTFILE"
+

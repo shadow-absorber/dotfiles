@@ -12,7 +12,7 @@
 
 
 
-    on_song_change: ["~/.config/rmpc/increment_play_count"], 
+    on_song_change: ["~/.config/rmpc/on_song_change.sh"], 
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
