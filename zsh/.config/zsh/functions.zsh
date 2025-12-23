@@ -23,7 +23,16 @@ dict1m() {
 }
 
 dict2() {
-    curl -s "https://api.dictionaryapi.dev/api/v2/entries/en_US/$1" | jq -r '.[].meanings[] | "\(.partOfSpeech): \(.definitions[].definition)\n"'
+    local response=$(curl -s "https://api.dictionaryapi.dev/api/v2/entries/en_US/$1")
+
+    # Check if the response is a JSON array (indicating valid results)
+    if ! echo "$response" | jq -e 'type == "array"' > /dev/null; then
+        echo "No definitions found or invalid word: '$1'."
+        return 1
+    fi
+
+    # Extract and format the meanings
+    echo "$response" | jq -r '.[].meanings[] | "\(.partOfSpeech): \(.definitions[].definition)\n"'
 }
 
 cht() {

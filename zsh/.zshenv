@@ -17,7 +17,7 @@ export IMAGE="nsxiv"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less -r"
-export SUDO_ASKPASS="$HOME/.config/rofi/bin/askpass"
+# export SUDO_ASKPASS="$HOME/.config/rofi/bin/askpass"
 
 # move apps to xdg dirs
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
@@ -34,6 +34,7 @@ export W3M_DIR="$XDG_CONFIG_HOME"/w3m
 export SQLITE_HISTORY="$XDG_CACHE_HOME"/sqlite_history
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export XCURSOR_PATH=/usr/share/icons:$XDG_DATA_HOME/icons
+export ANDROID_USER_HOME="$XDG_DATA_HOME"/android
 
 # Start blinking
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
