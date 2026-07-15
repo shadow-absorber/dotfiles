@@ -16,6 +16,8 @@ if [[ "$1" == "exit" ]]; then
     fi
     sleep 0.5
     hyprctl dispatch exit
+    sleep 1
+    pkill niri
     sleep 2
 fi
 
