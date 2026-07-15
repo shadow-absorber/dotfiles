@@ -136,3 +136,96 @@ function pomodoro_timer() {
     echo -ne "\033[0K\r"
     echo "Pomodoro completed!"
 }
+
+function ipinfo() {
+    # Check if an IP address was provided
+    if [ -z "$1" ]; then
+        echo "Usage: ipinfo <IP_ADDRESS>"
+        return 1
+    fi
+
+    # Validate the IP address format using the custom regex
+    if ! [[ "$1" =~ ^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.?(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.?(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.?(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$ ]]; then
+        echo "Invalid IP address format."
+        return 1
+    fi
+
+    # Fetch the IP information
+    IP_ADDRESS="$1"
+    RESPONSE=$(curl -s "https://ipinfo.io/${IP_ADDRESS}/json")
+
+    # Check if the response is valid JSON
+    if ! echo "$RESPONSE" | jq . >/dev/null 2>&1; then
+        echo "Unable to fetch data for IP: $IP_ADDRESS."
+        return 1
+    fi
+
+    # Print colors
+    GREEN='\033[0;32m'
+    CYAN='\033[0;36m'
+    YELLOW='\033[1;33m'
+    NC='\033[0m' # No Color
+
+    # Output formatted information
+    echo -e "${GREEN}IP Address:${NC} $(echo "$RESPONSE" | jq -r '.ip')"
+    echo -e "${CYAN}Hostname:${NC} $(echo "$RESPONSE" | jq -r '.hostname')"
+    echo -e "${YELLOW}City:${NC} $(echo "$RESPONSE" | jq -r '.city')"
+    echo -e "${YELLOW}Region:${NC} $(echo "$RESPONSE" | jq -r '.region')"
+    echo -e "${YELLOW}Country:${NC} $(echo "$RESPONSE" | jq -r '.country')"
+    echo -e "${YELLOW}Location:${NC} $(echo "$RESPONSE" | jq -r '.loc')"
+    echo -e "${YELLOW}Organization:${NC} $(echo "$RESPONSE" | jq -r '.org')"
+    echo -e "${YELLOW}Postal Code:${NC} $(echo "$RESPONSE" | jq -r '.postal')"
+    echo -e "${YELLOW}Timezone:${NC} $(echo "$RESPONSE" | jq -r '.timezone')"
+    echo -e "${CYAN}Readme:${NC} $(echo "$RESPONSE" | jq -r '.readme')"
+    echo -e "${YELLOW}Anycast:${NC} $(echo "$RESPONSE" | jq -r '.anycast')"
+}
+
+function mullvad_info() {
+    # Fetch the IP information
+    RESPONSE=$(curl -s "https://am.i.mullvad.net/json")
+
+    # Check if the response is valid JSON
+    if ! echo "$RESPONSE" | jq . >/dev/null 2>&1; then
+        echo "Failed to fetch data."
+        return 1
+    fi
+
+    # Print colors
+    GREEN='\033[0;32m'
+    CYAN='\033[0;36m'
+    YELLOW='\033[1;33m'
+    NC='\033[0m' # No Color
+
+    # Output formatted information
+    echo -e "${GREEN}IP Address:${NC} $(echo "$RESPONSE" | jq -r '.ip')"
+    echo -e "${YELLOW}Country:${NC} $(echo "$RESPONSE" | jq -r '.country')"
+    echo -e "${YELLOW}City:${NC} $(echo "$RESPONSE" | jq -r '.city')"
+    echo -e "${YELLOW}Longitude:${NC} $(echo "$RESPONSE" | jq -r '.longitude')"
+    echo -e "${YELLOW}Latitude:${NC} $(echo "$RESPONSE" | jq -r '.latitude')"
+    echo -e "${CYAN}Mullvad Exit IP:${NC} $(echo "$RESPONSE" | jq -r '.mullvad_exit_ip')"
+    echo -e "${CYAN}Mullvad Exit IP Hostname:${NC} $(echo "$RESPONSE" | jq -r '.mullvad_exit_ip_hostname')"
+    echo -e "${CYAN}Mullvad Server Type:${NC} $(echo "$RESPONSE" | jq -r '.mullvad_server_type')"
+    echo -e "${CYAN}Organization:${NC} $(echo "$RESPONSE" | jq -r '.organization')"
+
+    # Check blacklisted status
+    BLACKLISTED=$(echo "$RESPONSE" | jq -r '.blacklisted.blacklisted')
+    if [ "$BLACKLISTED" = "true" ]; then
+        echo "${YELLOW}Blacklisted:${NC} Yes"
+        echo "${YELLOW}Blacklist Results:${NC} $(echo "$RESPONSE" | jq -r '.blacklisted.results')"
+    else
+        echo "${YELLOW}Blacklisted:${NC} No"
+    fi
+}
+
+function zurl() {
+    local proto x host query
+    IFS=/ read -r proto x host query <<<"$1"
+    ztcp "$host" "${PORT:-80}"
+    echo -en "GET /${query} HTTP/1.0\r\nHost: ${host}\r\n\r\n" >&3
+    while read -r l; do
+        echo "$l"
+        [[ "$l" == $'\r' ]] && break
+    done <&3 && cat <&3
+    exec 3>&-
+}
+
