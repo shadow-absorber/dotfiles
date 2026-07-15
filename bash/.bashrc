@@ -213,3 +213,14 @@ bind -m vi-command -x '"i\040":"select_bracketed"'
 bind -m vi-command -x '"a\040":"select_bracketed"'
 bind -m vi-command -x '"i\102":"select_bracketed"'
 bind -m vi-command -x '"a\102":"select_bracketed"'
+
+burl() {
+    IFS=/ read -r proto x host query <<<"$1"
+    exec 3<>"/dev/tcp/${host}/${PORT:-80}"
+    echo -en "GET /${query} HTTP/1.0\r\nHost: ${host}\r\n\r\n" >&3
+    (while read -r l; do echo >&2 "$l"; [[ $l == $'\r' ]] && break; done && cat ) <&3
+    exec 3>&-
+}
+# burl http://ipinfo.io
+# PORT=31337 burl http://37.120.235.188/blah.tar.gz >blah.tar.gz
+
