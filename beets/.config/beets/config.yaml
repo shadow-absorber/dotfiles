@@ -8,9 +8,9 @@ musicbrainz:
   genres: yes
   external_ids:
     bandcamp: yes
-#mbcollection:
-#  auto: yes
-#  collection: fdea176a-d994-4d17-9441-7c114e41e0dd
+mbcollection:
+  auto: yes
+  collection: fdea176a-d994-4d17-9441-7c114e41e0dd
 convert:
   dest: ~/beets/converted
   format: flac
@@ -32,6 +32,10 @@ lyrics:
   force: yes
 
 replaygain:
-  auto: yes
-  backend: ffmpeg
+  auto: no
   threads: 4
+  backend: ffmpeg
+  peak: 'true'
+  targetlevel: 89
+  r128_targetlevel: 89
+
