@@ -15,8 +15,8 @@ if [[ "$1" == "exit" ]]; then
         rm $FILE
     fi
     sleep 0.5
-    hyprctl dispatch exit
-    sleep 1
+    hyprshutdown
+    sleep 5
     pkill niri
     sleep 2
 fi
