@@ -17,7 +17,7 @@
     "custom/notification",
     "cpu",
     "custom/gpu",
-    "custom/gpu-temp",
+   // "custom/gpu-temp",
     "memory",
     "pulseaudio",
     "clock",
@@ -46,16 +46,16 @@
   "cpu": {
     "interval": 10,
     "format": " {usage}%",
-    "max-length": 10
+    "max-length": 5
   },
   "custom/gpu": {
-    "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+    "exec": "/opt/rocm/bin/rocm-smi -d 0 --showuse --loglevel critical --csv | cut -d',' -f2 | tail -n 2",
     "format": "󰊴 {}%",
     "return-type": "",
-    "interval": 5
+    "interval": 10
   },
   "custom/gpu-temp": {
-    "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits",
+    "exec": "/opt/rocm/bin/rocm-smi -d 0 --showtemp --loglevel critical --csv | cut -d',' -f2 | tail -n 2",
     "format": " {}°",
     "return-type": "",
     "interval": 5
@@ -63,7 +63,7 @@
   "memory": {
     "interval": 30,
     "format": " {}%",
-    "max-length": 10
+    "max-length": 5
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
