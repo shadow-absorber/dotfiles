@@ -1,5 +1,9 @@
 #gives current weather in provide location
 
+gog-win() {
+    innoextract --extract --gog --color --output-dir "~/GOG Games/extracted" $1
+}
+
 git-key() {
     eval "$(ssh-agent)"
     ssh-add  $HOME/.ssh/github
