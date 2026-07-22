@@ -42,6 +42,9 @@ local menu = "$HOME/.config/rofi/launchers/type-6/launcher.sh"
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function()
+	hl.exec_cmd("hyprpm reload")
+	hl.exec_cmd("hyprctl setcursor catppuccin-mocha-dark-cursors 32")
+	hl.exec_cmd("hypridle")
 	hl.exec_cmd("awww init")
 	hl.exec_cmd("awww-daemon --format argb")
 	hl.exec_cmd("/home/user/.config/hypr/wallpaper.sh")
@@ -74,24 +77,63 @@ hl.env("SDL_VIDEODRIVER", "wayland")
 hl.env("CLUTTER_BACKEND", "wayland")
 hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
-hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "1")
+hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "2")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
+hl.env("HYPRSHOT_DIR", "/home/user/Pictures/Screenshots/")
 
 -----------------------
 ---- X11/Xwayland -----
 -----------------------
 
--- unscale XWayland
+--unscale XWayland
 hl.config({
 	xwayland = {
 		force_zero_scaling = true,
 	},
 })
+
+----------------------
+---- Niri Overview ---
+----------------------
+hl.config({
+	plugin = {
+		scrolloverview = {
+			gesture_distance = 300, -- how far is the "max" for the gesture
+			scale = 0.5, -- preferred overview scale
+			workspace_gap = 100,
+			layout = "vertical", -- vertical or horizontal
+			wallpaper = 0, -- 0: global only, 1: per-workspace only, 2: both
+			blur = false, -- blur only the main overview wallpaper
+
+			shadow = {
+				enabled = false,
+				range = 50,
+				render_power = 3,
+				color = 0xee1a1a1a,
+			},
+		},
+	},
+})
+
+hl.define_submap("scrolloverview", function()
+	hl.bind("left", hl.plugin.scrolloverview.navigate("left"))
+	hl.bind("right", hl.plugin.scrolloverview.navigate("right"))
+	hl.bind("up", hl.plugin.scrolloverview.navigate("up"))
+	hl.bind("down", hl.plugin.scrolloverview.navigate("down"))
+	hl.bind("Return", hl.plugin.scrolloverview.overview("select"))
+	hl.bind("Escape", hl.plugin.scrolloverview.overview("off"))
+	hl.bind("mouse:272", function()
+		-- Select the clicked window, or just the workspace if no window was clicked, then close the overview. This is the default behaviour if submap is not defined.
+		hl.plugin.scrolloverview.overview("select")
+		hl.plugin.scrolloverview.window("select")
+		hl.plugin.scrolloverview.overview("off")
+	end, { mouse = true })
+end)
 
 -----------------------
 ----- PERMISSIONS -----
@@ -119,13 +161,13 @@ hl.config({
 hl.config({
 	general = {
 		gaps_in = 5,
-		gaps_out = 20,
+		gaps_out = 10,
 
 		border_size = 2,
 
 		col = {
-			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
-			inactive_border = "rgba(595959aa)",
+			active_border = { colors = { "rgba(eba0acee)", "rgba(f38ba8ee)" }, angle = 45 },
+			inactive_border = "rgba(fab387aa)",
 		},
 
 		-- Set to true to enable resizing windows by clicking and dragging on borders and gaps
@@ -228,6 +270,10 @@ hl.config({
 -- See https://wiki.hypr.land/Configuring/Layouts/Scrolling-Layout/ for more
 hl.config({
 	scrolling = {
+		column_width = 0.5,
+		direction = "right",
+		focus_fit_method = 1,
+		explicit_column_widths = "0.5, 1.0",
 		fullscreen_on_one_column = true,
 	},
 })
@@ -285,7 +331,7 @@ hl.device({
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
-hl.bind(mainMod .. " + ENTER", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 hl.bind(
@@ -294,16 +340,22 @@ hl.bind(
 )
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + F", hl.dsp.layout("colresize +conf"))
+hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("/home/user/.config/wofi/scripts/cliphist.sh"))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("killall -SIGUSR1 waybar || waybar"))
+hl.bind(mainMod .. " + ALT + L", hl.dsp.exec_cmd("pidof hyprlock || hyprlock "))
+
+hl.bind(mainMod .. " + O", function()
+	hl.plugin.scrolloverview.overview("toggle")
+end)
 
 -- Screenshots
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
-hl.bind("ALT + PRINT", hl.dsp.exec_cmd("hyprshot -m window"))
-hl.bind("CTRL + PRINT", hl.dsp.exec_cmd("hyprshot -m output"))
+hl.bind("ALT + Print", hl.dsp.exec_cmd("hyprshot -m window"))
+hl.bind("CTRL + Print", hl.dsp.exec_cmd("hyprshot -m output"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
