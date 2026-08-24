@@ -45,6 +45,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("hyprpm reload")
 	hl.exec_cmd("hyprctl setcursor catppuccin-mocha-dark-cursors 32")
 	hl.exec_cmd("hypridle")
+	hl.exec_cmd("hyprsunset")
 	hl.exec_cmd("awww init")
 	hl.exec_cmd("awww-daemon --format argb")
 	hl.exec_cmd("/home/user/.config/hypr/wallpaper.sh")
@@ -100,40 +101,7 @@ hl.config({
 ----------------------
 ---- Niri Overview ---
 ----------------------
-hl.config({
-	plugin = {
-		scrolloverview = {
-			gesture_distance = 300, -- how far is the "max" for the gesture
-			scale = 0.5, -- preferred overview scale
-			workspace_gap = 100,
-			layout = "vertical", -- vertical or horizontal
-			wallpaper = 0, -- 0: global only, 1: per-workspace only, 2: both
-			blur = false, -- blur only the main overview wallpaper
-
-			shadow = {
-				enabled = false,
-				range = 50,
-				render_power = 3,
-				color = 0xee1a1a1a,
-			},
-		},
-	},
-})
-
-hl.define_submap("scrolloverview", function()
-	hl.bind("left", hl.plugin.scrolloverview.navigate("left"))
-	hl.bind("right", hl.plugin.scrolloverview.navigate("right"))
-	hl.bind("up", hl.plugin.scrolloverview.navigate("up"))
-	hl.bind("down", hl.plugin.scrolloverview.navigate("down"))
-	hl.bind("Return", hl.plugin.scrolloverview.overview("select"))
-	hl.bind("Escape", hl.plugin.scrolloverview.overview("off"))
-	hl.bind("mouse:272", function()
-		-- Select the clicked window, or just the workspace if no window was clicked, then close the overview. This is the default behaviour if submap is not defined.
-		hl.plugin.scrolloverview.overview("select")
-		hl.plugin.scrolloverview.window("select")
-		hl.plugin.scrolloverview.overview("off")
-	end, { mouse = true })
-end)
+require("scrolloverview")
 
 -----------------------
 ----- PERMISSIONS -----
@@ -191,7 +159,7 @@ hl.config({
 			enabled = true,
 			range = 4,
 			render_power = 3,
-			color = 0xee1a1a1a,
+			color = "rgba(ee1a1a1a)",
 		},
 
 		blur = {
@@ -293,14 +261,9 @@ hl.config({
 ---- INPUT ----
 ---------------
 
+require("keyboard")
 hl.config({
 	input = {
-		kb_layout = "gb",
-		kb_variant = "",
-		kb_model = "",
-		kb_options = "",
-		kb_rules = "",
-
 		follow_mouse = 1,
 
 		sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
@@ -333,24 +296,44 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
--- closeWindowBind:set_enabled(false)
-hl.bind(
-	mainMod .. " + M",
-	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
-)
+closeWindowBind:set_enabled(true)
+-- hl.bind(
+-- 	mainMod .. " + M",
+-- 	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
+-- )
+hl.bind("F23", hl.dsp.exec_cmd("python3 /home/user/Projects/scripts/script1.py"))
+hl.bind("F24", hl.dsp.exec_cmd("pkill -f script1.py"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.layout("colresize +conf"))
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("hyprpicker -a"))
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("/home/user/.config/wofi/scripts/cliphist.sh"))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("killall -SIGUSR1 waybar || waybar"))
 hl.bind(mainMod .. " + ALT + L", hl.dsp.exec_cmd("pidof hyprlock || hyprlock "))
+hl.bind(
+	mainMod .. " + K",
+	hl.dsp.exec_cmd(
+		"hyprctl switchxkblayout keychron-keychron-q6 next && hyprctl notify 1 2000 0 keyboard layout changed"
+	)
+)
 
-hl.bind(mainMod .. " + O", function()
-	hl.plugin.scrolloverview.overview("toggle")
-end)
+-- monitor refresh rate toggle
+hl.bind(
+	mainMod .. " + M",
+	hl.dsp.exec_cmd(
+		'hyprctl eval \'hl.monitor({output = "DP-1", mode = "3840x2160@120", position = "auto", scale = "2", icc = "/home/user/m28u-2026-07-27_20-04_sRGB_M-S_XYZLUT+MTX.icc",})\''
+	)
+)
+
+hl.bind(
+	mainMod .. " + SHIFT + M",
+	hl.dsp.exec_cmd(
+		'hyprctl eval \'hl.monitor({output = "DP-1", mode = "3840x2160@144", position = "auto", scale = "2", icc = "/home/user/m28u-2026-07-27_20-04_sRGB_M-S_XYZLUT+MTX.icc",})\''
+	)
+)
 
 -- Screenshots
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
