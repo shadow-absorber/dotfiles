@@ -4,6 +4,13 @@ gog-win() {
     innoextract --extract --gog --color --output-dir "~/GOG Games/extracted" $1
 }
 
+cpr() {
+  rsync --archive -hh --partial --info=stats1,progress1,progress2 --modify-window=1 "$@"
+} 
+mvr() {
+  rsync --archive -hh --partial --info=stats1,progress2 --modify-window=1 --remove-source-files "$@"
+}
+
 git-key() {
     eval "$(ssh-agent)"
     ssh-add  $HOME/.ssh/github
