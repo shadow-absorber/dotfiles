@@ -3,6 +3,11 @@ plugins: musicbrainz convert web edit embedart fetchart lyrics replaygain mbcoll
 directory: ~/beets/music
 library: ~/beets/data/musiclibrary.db
 
+paths:
+  default: $albumartist/$album [$year]%aunique{}/$track $title
+  singleton: Non-Album/$album [$year] - $track $title
+  comp: Compilations/$album [$year]%aunique{}/$track $title
+
 musicbrainz:
   https: yes
   genres: yes
@@ -32,7 +37,7 @@ lyrics:
   force: yes
 
 replaygain:
-  auto: no
+  auto: yes
   threads: 4
   backend: ffmpeg
   peak: 'true'

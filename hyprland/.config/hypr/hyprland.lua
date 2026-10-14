@@ -57,6 +57,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("nm-applet")
 	hl.exec_cmd("swaync")
 	hl.exec_cmd("waybar --config $HOME/.config/waybar/hyprland-waybar.jsonc")
+	hl.exec_cmd("pika-backup-monitor")
 end)
 
 -------------------------------
@@ -94,6 +95,8 @@ hl.env("HYPRSHOT_DIR", "/home/user/Pictures/Screenshots/")
 --unscale XWayland
 hl.config({
 	xwayland = {
+		enabled = true,
+		use_nearest_neighbor = true,
 		force_zero_scaling = true,
 	},
 })
