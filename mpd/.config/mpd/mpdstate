@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:my_fifo
 audio_device_state:1:my pipe
-state: play
-current: 1
-time: 120.149
+state: pause
+current: 17
+time: 370.896
 random: 0
 repeat: 1
 single: 0
@@ -13,10 +13,189 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Daft Punk/Human After All [2005]/09 Technologic.flac
-1:Daft Punk/Discovery [2021]/04 Harder, Better, Faster, Stronger.flac
-2:Daft Punk/Human After All [2005]/03 Robot Rock.flac
-3:Daft Punk/Human After All [2005]/04 Steam Machine.flac
-4:Daft Punk/Human After All [2005]/06 The Brainwasher.flac
-5:Daft Punk/Human After All [2005]/01 Human After All.flac
+0:Infected Mushroom/Legend of the Black Shawarma [2009]/01 Poquito Mas.flac
+1:Infected Mushroom/Legend of the Black Shawarma [2009]/02 Saeed.flac
+2:Infected Mushroom/Legend of the Black Shawarma [2009]/03 End of the Road.flac
+3:Infected Mushroom/Legend of the Black Shawarma [2009]/04 Smashing the Opponent.flac
+4:Infected Mushroom/Legend of the Black Shawarma [2009]/05 Can’t Stop.flac
+5:Infected Mushroom/Legend of the Black Shawarma [2009]/06 Herbert the Pervert.flac
+6:Infected Mushroom/Legend of the Black Shawarma [2009]/07 Killing Time.flac
+7:Infected Mushroom/Legend of the Black Shawarma [2009]/08 Project 100.flac
+8:Infected Mushroom/Legend of the Black Shawarma [2009]/09 Franks.flac
+9:Infected Mushroom/Legend of the Black Shawarma [2009]/10 Slowly.flac
+10:Infected Mushroom/Legend of the Black Shawarma [2009]/11 The Legend of the Black Shawarma.flac
+11:Infected Mushroom/Legend of the Black Shawarma [2009]/12 Riders on the Storm (Infected Mushroom remix).flac
+12:Infected Mushroom/The Gathering [2011]/01 Release Me.flac
+13:Infected Mushroom/The Gathering [2011]/02 The Gathering.flac
+14:Infected Mushroom/The Gathering [2011]/03 Return of the Shadows.flac
+15:Infected Mushroom/The Gathering [2011]/04 Blue Muppet.flac
+16:Infected Mushroom/The Gathering [2011]/05 Psycho.flac
+17:Infected Mushroom/The Gathering [2011]/06 Montoya (remix).flac
+18:Infected Mushroom/The Gathering [2011]/07 Tommy the Bat.flac
+19:Infected Mushroom/The Gathering [2011]/08 Virtual Voyage.flac
+20:Infected Mushroom/The Gathering [2011]/09 Over Mode.flac
+21:Infected Mushroom/IM The Supervisor [2011]/01 IM the Supervisor.flac
+22:Infected Mushroom/IM The Supervisor [2011]/02 Ratio Shmatio.flac
+23:Infected Mushroom/IM The Supervisor [2011]/03 Muse Breaks (remix).flac
+24:Infected Mushroom/IM The Supervisor [2011]/04 Meduzz.flac
+25:Infected Mushroom/IM The Supervisor [2011]/05 Cities of the Future.flac
+26:Infected Mushroom/IM The Supervisor [2011]/06 Horus the Chorus.flac
+27:Infected Mushroom/IM The Supervisor [2011]/07 Frog Machine.flac
+28:Infected Mushroom/IM The Supervisor [2011]/08 Noon.flac
+29:Infected Mushroom/IM The Supervisor [2011]/09 Bombat.flac
+30:Infected Mushroom/IM The Supervisor [2011]/10 Stretched.flac
+31:Infected Mushroom/Classical Mushroom [2011]/01 Bust a Move.flac
+32:Infected Mushroom/Classical Mushroom [2011]/02 None of This Is Real.flac
+33:Infected Mushroom/Classical Mushroom [2011]/03 Sailing in the Sea of Mushroom.flac
+34:Infected Mushroom/Classical Mushroom [2011]/04 The Shen.flac
+35:Infected Mushroom/Classical Mushroom [2011]/05 Disco Mushroom.flac
+36:Infected Mushroom/Classical Mushroom [2011]/06 Dracul.flac
+37:Infected Mushroom/Classical Mushroom [2011]/07 Nothing Comes Easy.flac
+38:Infected Mushroom/Classical Mushroom [2011]/08 Mush Mushi.flac
+39:Infected Mushroom/Classical Mushroom [2011]/09 The Missed Symphony.flac
+40:Infected Mushroom/Vicious Delicious [2011]/01 Becoming Insane.flac
+41:Infected Mushroom/Vicious Delicious [2011]/02 Artillery.flac
+42:Infected Mushroom/Vicious Delicious [2011]/03 Vicious Delicious.flac
+43:Infected Mushroom/Vicious Delicious [2011]/04 Heavyweight.flac
+44:Infected Mushroom/Vicious Delicious [2011]/05 Suliman.flac
+45:Infected Mushroom/Vicious Delicious [2011]/06 Forgive Me.flac
+46:Infected Mushroom/Vicious Delicious [2011]/07 Special Place.flac
+47:Infected Mushroom/Vicious Delicious [2011]/08 In Front of Me.flac
+48:Infected Mushroom/Vicious Delicious [2011]/09 Eat It Raw.flac
+49:Infected Mushroom/Vicious Delicious [2011]/10 Change the Formality.flac
+50:Infected Mushroom/Vicious Delicious [2011]/11 Before.flac
+51:Infected Mushroom/Converting Vegetarians [2011]/01 Albibeno.flac
+52:Infected Mushroom/Converting Vegetarians [2011]/02 Hush Mail.flac
+53:Infected Mushroom/Converting Vegetarians [2011]/03 Apogiffa Night.flac
+54:Infected Mushroom/Converting Vegetarians [2011]/04 Song Pong.flac
+55:Infected Mushroom/Converting Vegetarians [2011]/05 Chaplin.flac
+56:Infected Mushroom/Converting Vegetarians [2011]/06 Echonomix.flac
+57:Infected Mushroom/Converting Vegetarians [2011]/07 Scorpion Frog.flac
+58:Infected Mushroom/Converting Vegetarians [2011]/08 Deeply Disturbed.flac
+59:Infected Mushroom/Converting Vegetarians [2011]/09 Semi Nice.flac
+60:Infected Mushroom/Converting Vegetarians [2011]/10 Yanko Pitch.flac
+61:Infected Mushroom/Converting Vegetarians [2011]/11 Converting Vegetarians.flac
+62:Infected Mushroom/Converting Vegetarians [2011]/12 Elation Station.flac
+63:Infected Mushroom/Converting Vegetarians [2011]/13 Drop Out.flac
+64:Infected Mushroom/Converting Vegetarians [2011]/14 Avratz.flac
+65:Infected Mushroom/Converting Vegetarians [2011]/15 Blink.flac
+66:Infected Mushroom/Converting Vegetarians [2011]/16 Shakawkaw.flac
+67:Infected Mushroom/Converting Vegetarians [2011]/17 Pletzturra.flac
+68:Infected Mushroom/Converting Vegetarians [2011]/18 I Wish.flac
+69:Infected Mushroom/Converting Vegetarians [2011]/19 Ballerium.flac
+70:Infected Mushroom/Converting Vegetarians [2011]/20 Selecta.flac
+71:Infected Mushroom/Converting Vegetarians [2011]/21 Illuminaughty.flac
+72:Infected Mushroom/Converting Vegetarians [2011]/22 Jeenge.flac
+73:Infected Mushroom/Converting Vegetarians [2011]/23 Elevation.flac
+74:Infected Mushroom/B.P.Empire [2012]/01 Never Ever Land.flac
+75:Infected Mushroom/B.P.Empire [2012]/02 Unbalanced (Baby Killer remix).flac
+76:Infected Mushroom/B.P.Empire [2012]/03 Spaniard.flac
+77:Infected Mushroom/B.P.Empire [2012]/04 B.P.Empire.flac
+78:Infected Mushroom/B.P.Empire [2012]/05 Funchameleon.flac
+79:Infected Mushroom/B.P.Empire [2012]/06 Tasty Mushroom.flac
+80:Infected Mushroom/B.P.Empire [2012]/07 Noise Maker.flac
+81:Infected Mushroom/B.P.Empire [2012]/08 P.G.M_.flac
+82:Infected Mushroom/B.P.Empire [2012]/09 Dancing With Kadafi.flac
+83:Infected Mushroom/Army of Mushrooms [2012]/01 Never Mind.flac
+84:Infected Mushroom/Army of Mushrooms [2012]/02 Nothing to Say.flac
+85:Infected Mushroom/Army of Mushrooms [2012]/03 Send Me an Angel.flac
+86:Infected Mushroom/Army of Mushrooms [2012]/04 U R So Fucked.flac
+87:Infected Mushroom/Army of Mushrooms [2012]/05 The Rat.flac
+88:Infected Mushroom/Army of Mushrooms [2012]/06 Nation of Wusses.flac
+89:Infected Mushroom/Army of Mushrooms [2012]/07 Wanted To.flac
+90:Infected Mushroom/Army of Mushrooms [2012]/08 Serve My Thirst.flac
+91:Infected Mushroom/Army of Mushrooms [2012]/09 I Shine.flac
+92:Infected Mushroom/Army of Mushrooms [2012]/10 Drum n’ Bassa.flac
+93:Infected Mushroom/Army of Mushrooms [2012]/11 The Pretender.flac
+94:Infected Mushroom/Army of Mushrooms [2012]/12 The Messenger 2012.flac
+95:Infected Mushroom/Army of Mushrooms [2012]/13 Swingish.flac
+96:Infected Mushroom/Converting Vegetarians II [2015]/01 She Zoremet.flac
+97:Infected Mushroom/Converting Vegetarians II [2015]/02 Yamakas in Space.flac
+98:Infected Mushroom/Converting Vegetarians II [2015]/03 Sense of Direction.flac
+99:Infected Mushroom/Converting Vegetarians II [2015]/04 Animatronica.flac
+100:Infected Mushroom/Converting Vegetarians II [2015]/05 Feelings.flac
+101:Infected Mushroom/Converting Vegetarians II [2015]/06 Pink Froid.flac
+102:Infected Mushroom/Converting Vegetarians II [2015]/07 Demons of Pain.flac
+103:Infected Mushroom/Converting Vegetarians II [2015]/08 Zoan Zound.flac
+104:Infected Mushroom/Converting Vegetarians II [2015]/09 Blue Swan 5.flac
+105:Infected Mushroom/Converting Vegetarians II [2015]/10 Fields of Grey.flac
+106:Infected Mushroom/Converting Vegetarians II [2015]/11 Leopold.flac
+107:Infected Mushroom/Converting Vegetarians II [2015]/12 On the Road Again.flac
+108:Infected Mushroom/Converting Vegetarians II [2015]/13 Stuck in a Loop.flac
+109:Infected Mushroom/Converting Vegetarians II [2015]/14 Mexicali.flac
+110:Infected Mushroom/Converting Vegetarians II [2015]/15 The Surgeon.flac
+111:Infected Mushroom/Friends on Mushrooms [2015]/01 Kafkaf.flac
+112:Infected Mushroom/Friends on Mushrooms [2015]/02 Bass Nipple.flac
+113:Infected Mushroom/Friends on Mushrooms [2015]/03 Savant on Mushrooms.flac
+114:Infected Mushroom/Friends on Mushrooms [2015]/04 Kipod.flac
+115:Infected Mushroom/Friends on Mushrooms [2015]/05 Kazabubu.flac
+116:Infected Mushroom/Friends on Mushrooms [2015]/06 Now Is Gold.flac
+117:Infected Mushroom/Friends on Mushrooms [2015]/07 Rise Up.flac
+118:Infected Mushroom/Friends on Mushrooms [2015]/08 Nerds on Mushrooms.flac
+119:Infected Mushroom/Friends on Mushrooms [2015]/09 Mambacore.flac
+120:Infected Mushroom/Friends on Mushrooms [2015]/10 Where Do I Belong.flac
+121:Infected Mushroom/Friends on Mushrooms [2015]/11 Astrix on Mushrooms.flac
+122:Infected Mushroom/Friends on Mushrooms [2015]/12 Who Is There.flac
+123:Infected Mushroom/Friends on Mushrooms [2015]/13 Bark.flac
+124:Infected Mushroom/Friends on Mushrooms [2015]/14 Trance Party.flac
+125:Infected Mushroom/Friends on Mushrooms [2015]/15 See Me Now.flac
+126:Infected Mushroom/Friends on Mushrooms [2015]/16 The French.flac
+127:Infected Mushroom/Friends on Mushrooms [2015]/17 Kipod (RIOT remix).flac
+128:Infected Mushroom/Return to the Sauce [2017]/01 Flamingo.flac
+129:Infected Mushroom/Return to the Sauce [2017]/02 Manipulator.flac
+130:Infected Mushroom/Return to the Sauce [2017]/03 Return to the Sauce.flac
+131:Infected Mushroom/Return to the Sauce [2017]/04 Groove Attack.flac
+132:Infected Mushroom/Return to the Sauce [2017]/05 Gravity Waves (Infected Mushroom 2017 remix).flac
+133:Infected Mushroom/Return to the Sauce [2017]/06 Demons of Pain (remix).flac
+134:Infected Mushroom/Return to the Sauce [2017]/07 Milosh.flac
+135:Infected Mushroom/Return to the Sauce [2017]/08 Nutmeg.flac
+136:Infected Mushroom/Return to the Sauce [2017]/09 Liquid Smoke.flac
+137:Infected Mushroom/Return to the Sauce [2017]/10 Return to the Sauce (continuous mix).flac
+138:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/01 Bliss on Mushrooms.flac
+139:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/02 Guitarmass.flac
+140:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/03 Head of NASA.flac
+141:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/04 Chenchen Barvaz.flac
+142:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/05 Walking on the Moon.flac
+143:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/06 Here We Go Go Go.flac
+144:Infected Mushroom/Head of NASA and the 2 Amish Boys [2018]/07 Lost in Space.flac
+145:Infected Mushroom/More Than Just a Name [2020]/01 More of Just the Same.flac
+146:Infected Mushroom/More Than Just a Name [2020]/02 Only Solutions.flac
+147:Infected Mushroom/More Than Just a Name [2020]/03 Ani Mevushal.flac
+148:Infected Mushroom/More Than Just a Name [2020]/04 Symphonatic (Infected Mushroom & Astrix remix).flac
+149:Infected Mushroom/More Than Just a Name [2020]/05 No Line in MIDI.flac
+150:Infected Mushroom/More Than Just a Name [2020]/06 Splicon.flac
+151:Infected Mushroom/More Than Just a Name [2020]/07 Freedom Bill.flac
+152:Infected Mushroom/More Than Just a Name [2020]/08 Infected Megamix.flac
+153:Infected Mushroom/Shroomeez [2021]/01 You Wanna Stay.flac
+154:Infected Mushroom/Shroomeez [2021]/02 Leftovers.flac
+155:Infected Mushroom/Shroomeez [2021]/03 Back at It.flac
+156:Infected Mushroom/Shroomeez [2021]/04 Ma Osim.flac
+157:Infected Mushroom/IM25 [2022]/01 Black Velvet.flac
+158:Infected Mushroom/IM25 [2022]/02 While I’m in the Mood.flac
+159:Infected Mushroom/IM25 [2022]/03 Business as Usual.flac
+160:Infected Mushroom/IM25 [2022]/04 Boss La Rosh.flac
+161:Infected Mushroom/IM25 [2022]/05 Zazim Beyhad (We Move Together).flac
+162:Infected Mushroom/IM25 [2022]/06 Turkish Nights.flac
+163:Infected Mushroom/IM25 [2022]/07 Serious Times.flac
+164:Infected Mushroom/IM25 [2022]/08 Lies and Deceptions.flac
+165:Infected Mushroom/IM25 [2022]/09 A Cookie From Space.flac
+166:Infected Mushroom/IM25 [2022]/10 It’s Behind Me Now.flac
+167:Infected Mushroom/IM25 [2022]/11 Billy on Mushrooms.flac
+168:Infected Mushroom/REBORN [2024]/01 Release Me REBORN.flac
+169:Infected Mushroom/REBORN [2024]/02 Wider REBORN.flac
+170:Infected Mushroom/REBORN [2024]/03 Return of the Shadows REBORN.flac
+171:Infected Mushroom/REBORN [2024]/04 Disco Mushroom REBORN.flac
+172:Infected Mushroom/REBORN [2024]/05 Dracul REBORN.flac
+173:Infected Mushroom/REBORN [2024]/06 Mush Mushi REBORN.flac
+174:Infected Mushroom/REBORN [2024]/07 Dream Theater REBORN.flac
+175:Infected Mushroom/REBORN [2024]/08 S Is Here REBORN.flac
+176:Infected Mushroom/REBORN [2024]/09 Dancing With Kadafi REBORN.flac
+177:Infected Mushroom/IM30 [2026]/01 What You Know You Know You Know.flac
+178:Infected Mushroom/IM30 [2026]/02 New World Order.flac
+179:Infected Mushroom/IM30 [2026]/03 Enjoy the Ride.flac
+180:Infected Mushroom/IM30 [2026]/04 Lightweight.flac
+181:Infected Mushroom/IM30 [2026]/05 LA Beast.flac
+182:Infected Mushroom/IM30 [2026]/06 No More Happy Endings.flac
+183:Infected Mushroom/IM30 [2026]/07 Mesumpelet.flac
+184:Infected Mushroom/IM30 [2026]/08 AI Therapist.flac
 playlist_end
