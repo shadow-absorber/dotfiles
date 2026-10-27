@@ -58,15 +58,19 @@ PERL_MB_OPT="--install_base \"/home/user/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/user/perl5"; export PERL_MM_OPT;
 
 
+# Fish-like syntax highlighting and autosuggestions
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
+# Use history substring search
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
-bindkey '^ ' autosuggest-accept
-
+# pkgfile "command not found" handler
 source /usr/share/doc/pkgfile/command-not-found.zsh
+
+source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
+
+bindkey '^ ' autosuggest-accept
 
 source $HOME/.config/zsh/coloured-man-pages.zsh
 
