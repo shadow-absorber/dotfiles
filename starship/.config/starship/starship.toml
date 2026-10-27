@@ -125,7 +125,7 @@ ignore_timeout = true
 
 [os]
 style = "blue"
-disabled = false
+disabled = true
 
 [os.symbols]
 Windows = "󰍲"
