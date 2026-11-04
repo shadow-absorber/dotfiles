@@ -45,24 +45,24 @@
   },
   "cpu": {
     "interval": 10,
-    "format": " {usage}%",
+    "format": "{usage}%",
     "max-length": 5
   },
   "custom/gpu": {
     "exec": "/opt/rocm/bin/rocm-smi -d 0 --showuse --loglevel critical --csv | cut -d',' -f2 | tail -n 2",
-    "format": "󰊴 {}%",
+    "format": "󰊴{}%",
     "return-type": "",
     "interval": 10
   },
   "custom/gpu-temp": {
     "exec": "/opt/rocm/bin/rocm-smi -d 0 --showtemp --loglevel critical --csv | cut -d',' -f2 | tail -n 2",
-    "format": " {}°",
+    "format": "{}°",
     "return-type": "",
     "interval": 5
   },
   "memory": {
     "interval": 30,
-    "format": " {}%",
+    "format": "{}%",
     "max-length": 5
   },
   "pulseaudio": {
@@ -80,14 +80,14 @@
   "clock#simpleclock": {
     "timezones": [ "Europe/Stockholm", "UTC", "US/Mountain" ],
     "tooltip": false,
-    "format": " {:%Z %H:%M}",
+    "format": "{:%Z %H:%M}",
     "actions": {
       "on-click": "tz_up",
       "on-click-right": "tz_down"
     }
   },
   "clock": {
-    "format": " {:L%a %d %b}",
+    "format": "{:L%a %d %b}",
     "timezone": "Europe/Stockholm",
     "calendar": {
       "format": {
@@ -117,7 +117,7 @@
     "tooltip": false
   },
   "custom/powerbutton": {
-    "format": "  ",
+    "format": "",
     "interval": "once",
     "on-click": "wlogout -p layer-shell"
   }
