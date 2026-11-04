@@ -21,12 +21,3 @@ hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 hl.env("HYPRSHOT_DIR", "/home/user/Pictures/Screenshots/")
-
---unscale XWayland
-hl.config({
-	xwayland = {
-		enabled = true,
-		use_nearest_neighbor = true,
-		force_zero_scaling = true,
-	},
-})

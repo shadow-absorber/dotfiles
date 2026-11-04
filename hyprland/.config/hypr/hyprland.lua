@@ -13,6 +13,7 @@
 require("modules/monitors")
 require("modules/autostart")
 require("modules/environment")
+require("modules/xwayland")
 require("modules/decoration")
 require("modules/animation")
 require("modules/layout")
