@@ -49,7 +49,7 @@ eval "$(pyenv init -)"
 
 export LUA_PATH='/usr/share/lua/5.4/?.lua;/usr/share/lua/5.4/?/init.lua;/usr/lib/lua/5.4/?.lua;/usr/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/home/user/.luarocks/share/lua/5.4/?.lua;/home/user/.luarocks/share/lua/5.4/?/init.lua;/home/user/.local/share/luarocks/share/lua/5.4/?.lua;/home/user/.local/share/luarocks/share/lua/5.4/?/init.lua'
 export LUA_CPATH='/usr/lib/lua/5.4/?.so;/usr/lib/lua/5.4/loadall.so;./?.so;/home/user/.luarocks/lib/lua/5.4/?.so;/home/user/.local/share/luarocks/lib/lua/5.4/?.so'
-export PATH='/home/user/.local/share/luarocks/bin:/home/user/.config/lf:/home/user/.config/scripts:/home/user/.local/bin:/home/user/.local/share/pyenv/shims:/home/user/.local/share/gem/ruby/3.2.0/bin:/home/user/.npm/npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
+export PATH='/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/bin:/usr/local/sbin:/home/user/.local/share/luarocks/bin:/home/user/.config/lf:/home/user/.config/scripts:/home/user/.local/bin:/home/user/.local/share/pyenv/shims:/home/user/.npm/npm-global/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/user/.local/share/gem/ruby/3.4.0/bin'
 
 PATH="/home/user/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/user/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
