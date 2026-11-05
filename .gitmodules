@@ -7,9 +7,3 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
 	url = git@github.com:shadow-absorber/kickstart-modular.nvim.git
-[submodule "ghostty/.config/ghostty/ghostty-cursor-shaders"]
-	path = ghostty/.config/ghostty/ghostty-cursor-shaders
-	url = https://github.com/sahaj-b/ghostty-cursor-shaders
-[submodule "ghostty/.config/ghostty/ghostty-shaders"]
-	path = ghostty/.config/ghostty/ghostty-shaders
-	url = https://github.com/hackrdotsh/ghostty-shaders.git
