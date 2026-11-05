@@ -1,3 +1,4 @@
+# vim: ft=ghostty
 theme = catppuccin-mocha.conf
 # theme = GruvboxDark
 # font-family = Meslo LGS Nerd Font Mono
